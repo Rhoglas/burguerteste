@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Arquivos do carrocel de promo -->
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- File cardápio -->
+  <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
+
+  <!-- File externo -->
+  <script src="script.js" defer></script>
+  <link rel="shortcut icon" href="./img/logo1.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Título da página -->
+  <title>Burguer King</title>
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header id="header">
+    <a id="logo" href="#sobre">
+      <span>Burger</span>
+      <span>King</span></a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="https://burguer-king-4.ola.click/products">Cardápio</a></li>
+        <li><a href="#contLocal">Localidade</a></li>
+        <li><a href="#rodape">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Carrosel de promoções -->
+  <div class="ofertas " id='sobre'>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- <div class="swiper-slide">Slide 1</div>  -->
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div id='promocoes'>
+      <h1>Ofertas</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil deserunt consequuntur, dolorum minima
+        soluta id at laborum officia possimus, perspiciatis cum repellat non asperiores natus quo accusamus ducimus eos?
+      </p>
+      <a class='buttom' href="https://burguer-king-4.ola.click/products">VER MENU</a>
+    </div>
+  </div>
+
+  <!-- Cardápio -->
+
+  <div class="cardapio" id='cardapio'>
+    <iframe src="https://burguer-king-4.ola.click/products" frameborder="0"></iframe>
+  </div>
+
+  <!-- Localização  -->
+  <div id="contLocal">
+    <div id="localFrame">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7974.276459615176!2d-56.50095454609376!3d-2.100197399999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926335d60557d469%3A0xdecdf14de87f3611!2slanche%20do%20Dilon!5e0!3m2!1spt-BR!2sbr!4v1657655795715!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="localText">
+      <h2>Onde nos encontrar?</h2>
+      <h1>Localização</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae similique autem doloremque laboriosam hic
+        perspiciatis ex quaerat explicabo. Illo repudiandae modi reprehenderit rerum quisquam corporis eveniet ab ut
+        ipsa doloremque?</p>
+      <a class='buttom' href="https://goo.gl/maps/29156WDSAB8iSXQK6">Vamos lá</a>
+    </div>
+  </div>
+
+  <!-- Contato -->
+  <footer class="rodape " id='rodape'>
+    <section id="footer1">
+      <h1>Burguer King</h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat corrupti reprehenderit qui quia
+        consectetur tempora reiciendis optio, aspernatur veritatis vitae excepturi itaque odit quam voluptatem ea
+        voluptate quasi commodi?</p>
+    </section>
+    <div id="footer2">
+      <h1> Nossas redes sociais </h1>
+      <hr>
+      <p>
+        É só clicar !
+      </p>
+      <span>
+        <a class='icon' id='icon1' href="">Facebook</a>
+        <a class='icon' id='icon2' href=""> Whatsapp</a>
+        <a class='icon' id='icon3' href=""> Instagram</a>
+        <a class='icon' id='icon4' href=""> E-mail</a>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>
